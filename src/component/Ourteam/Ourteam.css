@@ -1,20 +1,67 @@
+#Team-stawi {
+  margin-bottom: 10px;
+}
+
 .team {
-    display: flex;
+  display: flex;
+  margin-bottom: 5%;
+}
+.meet-the-team h1 {
+  margin-top: -8%;
+  font-size: 40px;
+  padding: 20px;
+}
+.lady img {
+  border-radius: 50%;
+}
+
+
+
+.meet-the-team h1 {
+  font-size: 20px;
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width: 952px) {
+  .team {
+    display: block;
     margin-left: 5%;
   }
-  .koyo {
-    margin-left: 5%;
+}
+
+@media (max-width: 858px) {
+  .team {
+    display: block;
+    /* margin-top: 2%; */
   }
-  .virgy {
-    margin-left: 6%;
-  }
-  .mitchie {
+  .meet-the-team {
+    margin-top: 60%;
     margin-left: 8%;
   }
-  .nancy {
-    margin-left: 5%;
+  .lady img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
   }
-  .ourteam {
-    margin-top: -20%;
-    margin-left: 30%;
+
+  .meet-the-team h1 {
+    font-size: 20px;
   }
+}
+@keyframes anime {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+/* The element to apply the animation to */
+.team {
+  background-color: white;
+  animation-name: anime;
+  animation-duration: 4s;
+}

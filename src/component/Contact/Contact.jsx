@@ -1,55 +1,64 @@
-
-import "./contact.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import{faFacebook, faTwitter ,faInstagram,faLinkedin, faTiktok ,faYoutube} from '@fortawesome/free-brands-svg-icons'
+import "./contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import stawilogo from "..//images/StawiBrood_Logo-removebg-preview.png";
 
 function Contact() {
   return (
-      <div className="footer">
+    <div className="footer">
+      <div className="social-media-icons">
+        <h3>Connect with us:</h3>
+        <a href="https://www.facebook.com/people/Stawi-Brood/100087050424447/" className="icon">
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
 
-
-
-    <div id="contact">
-      <h1>Contact us</h1>
-
-      <p> Get in touch. We are looking forward to hearing from you.</p>
-      <p>You can now contact us when you visit our social media handles.</p>
-      <p>We excel at the satisfaction of our customers.</p>
-    
+        <a href="https://twitter.com/StawiBrood" className="icon">
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a href="https://www.linkedin.com/in/stawi-brood-ba6389255/" className="icon">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="mailto:stawibrood@gmail.com">
+          {" "}
+          <i className="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
       </div>
 
-              <div className="social-media-icons">
-                  <a href="https://facebook.com">
-                  {/* <p>StawiBrood</p>  */}
-                      <FontAwesomeIcon className="icon" icon={faFacebook}/>
-                  </a>
-                  
-                  <a href="https://twitter.com">
-                      <FontAwesomeIcon className="icontwo" icon={faTwitter}/>
+      <div className="footer-navbar">
+        <h3>Who we are</h3>
+        <ul>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#product">Our product</a>
+          </li>
+          <li>
+            <a href="Team-stawi">Our Team</a>
+          </li>
+          <li>
+            <a className="active" href="contact">
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </div>
 
-                  </a>
-                  <a href="https://linkedin.com">
-                      <FontAwesomeIcon className="iconthree" icon={faLinkedin}/>
-
-                  </a>
-                  {/* <p>Stawi_Brood</p>  */}
-
-                  {/* <a href="https://tiktok.com">
-                      <FontAwesomeIcon className="iconfour" icon={faTiktok}/>
-
-                  </a> */}
-                  {/* <p>@StawiBrood</p>  */}
-
-                  {/* <a href="https://youtube.com">
-                      <FontAwesomeIcon className="iconfive" icon={faYoutube}/>
-
-                  </a> */}
-                  {/* <p>StawiBrood</p>  */}
-
-              </div>
-    
+      <div id="contact">
+        <a href="#About">
+          {" "}
+          <img src={stawilogo} alt="StawiBrood Logo" />
+        </a>
+        <p>
+          StawiBrood is tech-driven IoT solution that caters for small scale poultry <br />
+          farmers in Kenya with a conducive enviroment to enable them <br /> increase chicken production{" "}
+        </p>
+        <br />
+        <p>
+          © 2022 StawiBrood. All rights reserved. We respect your privacy. <br /> By using our site, you agree to our terms.
+        </p>
+      </div>
     </div>
-    
   );
 }
 

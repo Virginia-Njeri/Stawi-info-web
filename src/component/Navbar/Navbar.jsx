@@ -1,43 +1,40 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 // import {HashLink as Link} from 'react-router-hash-link';
-import "./navbar.css"
-
+import "./navbar.css";
+import logo from "../images/StawiBrood_Logo-removebg-preview.png";
 
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar" id="About">
       <nav className="header">
-        <div className="logo-nav">
-          {/* <Link to="main" className="logo">
-            <img src={stawibrood} alt="logo" />
-          </Link> */}
-        </div>
 
+         <input type="checkbox" id="check" />
+        <label for="check" className="checkbtn">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+
+        {/* <div className="logo">
+          <img src={logo} alt=""  />
+        </div> */}
+        
         <ul>
           <li>
-            <a href="contact">Contact Us</a>
-          </li>
-          <li>
-            <a href="Team">Our Team</a>
+            <a className="active"  href="#About" smooth={true} duration={1000}>
+              About
+            </a>
           </li>
           <li>
             <a href="#product">Our product</a>
           </li>
           <li>
-            <a href="#Navbar">About</a>
+            <a href="#Team-stawi">Our Team</a>
           </li>
-          
-          
-          
-        </ul>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul> 
       </nav>
-      <div className="stawi">
-        <h2>StawiBrood is here to</h2>
-        <h1>
-          give your chicks a <br></br>fighting chance
-        </h1>
-      </div>
     </div>
   );
 }

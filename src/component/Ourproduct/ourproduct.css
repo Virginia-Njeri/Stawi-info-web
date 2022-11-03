@@ -2,26 +2,85 @@
     display: flex;
     color: black;
     height: 70vh;
+    margin-top: 2%;
+    background-color: #FCF8E6;
+  }
+  .about{
+    margin-top: 200px;
+  }
+  .about h1{
+    font-size: 40px;
   }
   
   .brooder {
     margin-left: 30%;
-  }
-  .our {
-    margin-left: 14%;
-    margin-top: 2%;
-    
-  }
-  
+    border-radius: 20px;
+   
+  } 
   .product {
     border: #2a2c4c;
   }
   .para {
-    margin-left: 30%;
-    margin-left: 15%;
-    margin-top: -1%;
+    margin-top: 40px;
+  }
+  .para p{
+    width: 68%;
+    margin-left: 20%;
+    text-align: center;
+    padding: 10px;
+   letter-spacing: 1.2px;
   }
   .realBrooder {
-    margin-left: 5%;
-    margin-top: 2%;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-left: 2px;
   }
+  @media (max-width: 858px) {
+
+    .product1 {
+      display: block;
+      justify-content: space-around;
+
+    }
+
+  }
+  @media (max-width: 952px) {
+    .product1 {
+      display: block;
+      justify-content: space-around;
+
+    }
+
+    .para p{
+      width: 68%;
+      margin-left: 10%;
+      text-align: center;
+      padding: 10px;
+     letter-spacing: 1.2px;
+    }
+
+    .para h1{
+      width: 68%;
+      margin-left: 10%;
+      text-align: center;
+      padding: 10px;
+     letter-spacing: 1.2px;
+    }
+    .realBrooder {
+      margin-right: 30%;
+      margin-top: 5%;
+    }
+
+    
+
+
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+
+
+
+
+  

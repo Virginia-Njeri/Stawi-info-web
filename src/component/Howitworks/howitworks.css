@@ -1,62 +1,73 @@
-.how-it-works{
-    margin-top: -6%;
-    color: #2a2c4c;
+.how-it-works {
+  color: #2a2c4c;
+  margin-top: 40px;
+}
+.how-it-works h1 {
+  font-size: 40px;
+  margin-top: -2%;
+}
+
+.section2 {
+  height: 80vh;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 10px 10px 10px;
+  margin-top: 60px;
+}
+.box-container {
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 2px 5px 2px 5px #2a2c4c;
+  border-radius: 20px;
+  justify-content: space-around;
+  transition: transform .1s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+}
+.box-container:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+h2 {
+  color: #eadb3c;
+  font-weight: 900;
+}
+
+h3 {
+  color: #2a2c4c;
+  font-weight: 900;
+}
+
+@media (max-width: 952px) {
+  .how-it-works h1 {
+    font-size: 25px;
+    margin-top: 45%;
+  }
+  .boxes {
+    display: block;
   
   }
-  
-  .section2 {
-    height: 70vh;
-  }
-  
-  .boxess {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 10px 10px 10px;
-  }
-  .boxx1 {
+
+  .box-container {
     background: white;
     width: 200px;
     height: 200px;
-    padding: 10px;
     box-shadow: 5px 5px 5px 10px #2a2c4c;
     border-radius: 20px;
-    justify-content: space-around;
-  }
-  .boxx2 {
-    background: white;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    box-shadow: 5px 5px 5px 10px #2a2c4c;
-    border-radius: 20px;
-    justify-content: space-around;
-  }
-  .boxx3 {
-    background: white;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    box-shadow: 5px 5px 5px 10px #2a2c4c;
-    border-radius: 20px;
-    justify-content: space-around;
-  }
-  h2 {
-    color: #EADB3C;
-    font-weight: 900;
-  }
+    margin-top: 34px;
+    margin-left: 220px;
   
-  h3 {
-    color: #2a2c4c;
-    font-weight: 900;
   }
-  
-  /* team */
-  .meet {
-    margin-top: -2rem;
-    /* margin-left: 5%;
-    display: flex; */
+  .box-container {
+   
   }
-  .hehe{
-    color:#2a2c4c;
-    margin-top: -7%;
-  }
+}

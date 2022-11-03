@@ -1,74 +1,70 @@
-#contact {
-    background-color: #2a2c4c;
-    color: white;
-    height: 40vh;
-  }
-  
-  #contact h1{
-    padding-top: 10px;
-  }
-  
-  #contact p{
-    margin-top: 20px;
-  }
-  
-  .Singlecall {
-    max-width: 750px;
-  
-  }
-  
-  /* .social-media-icons-white-a {
-    color: white;
-    font-size: 20rem;
-    
-  } */
-  
-  .social-media-icons{
-    font-size: 30px;
-    /* display: flex; */
-    flex-direction: column;
-    margin-left: 38px;  
-    margin-top: -18%;
-    padding-top: 160px;
-    
-    
-    justify-content: space-evenly; 
-  
-  }
-  
-  /* .social-media-icons p{
+.footer {
+  background: #2a2c4c;
+  color: #fff;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .icon {
+  flex-direction: column;
+  display: inline-block;
+}
+.icon {
+  color: white;
+  margin-top: 5%;
+  font-size: 25px;
+  margin-right: 60%;
+  display: flex;
+}
+.fa-envelope-o {
+  color: white;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 60%;
+}
+
+#contact h1 {
+  color: #f1dd31;
+}
+
+.footer-navbar ul {
+  margin-top: 10px;
+  line-height: 40px;
+}
+a{
+  color: #fff;
+}
+.footer-navbar h3 {
+  color: #f1dd31;
+  margin-top: 40px;
+
+}
+
+#contact img {
+  height: 100px;
+  width: 100px;
+}
+.social-media-icons h3{
+  color: #f1dd31;
+  margin-top: 40px;
+}
+
+
+@media(max-width:958px){
+  .footer {
+    background: #2a2c4c;
     color: white;
     display: flex;
     font-size: 10px;
-  } */
-  .icon{
+    margin-top: 10%;
+  }
+
+  .icon {
     color: white;
-    margin-right: 10px;
-    padding-top: 20px;
+    margin-top: 5%;
+    font-size: 20px;
+    margin-right: 60%;
   }
-  .icontwo{
-    color: white;
-    margin-right: 10px;
-  
-  }
-  .iconthree{
-    color: white;
-    margin-right: 10px;
-  
-  }
-  .iconfour{
-    color: white;
-    margin-right: 10px;
-  
-  }
-  .iconfive{
-    color: white;
-    margin-right: 10px;
-  
-  
-  }
-  
-  .footer{
-    height: 12vh;
-  }
-  
+
+
+}

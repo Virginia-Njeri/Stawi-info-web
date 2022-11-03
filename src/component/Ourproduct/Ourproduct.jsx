@@ -10,19 +10,19 @@ function Ourproduct() {
       </div>
       <div className="product1">
         <div className="realBrooder">
-          <img className="brooder" src={realbrooder} width="350" height={250} />
+          <img className="brooder" src={realbrooder} width="500" height={300} />
         </div>
         <div className="para">
           <h1>StawiBrood</h1>
           <p>
-            The StawiBrood's goal is to automate the brooder's temperature
-            <br/><br/> and humidity at optimal levels to meet the chick's requirement.
-            <br></br> When temperature exceeds the needed threshold, the fan is 
-            <br></br> activated hence good air circulation within the brooder; similarly,
-            <br></br> when the temperature decreases below the optimum level, the brooder
-            <br></br> bulb is activated and the brooder is warmed to the desired or 
-            <br></br> required temperature. The feeding and drinking is automated to 
-            <br></br> ensure that the chicks are fed at different needed times.
+             The StawiBrood's goal is to automate the brooder's temperature
+             and humidity at optimal levels to meet the chick's requirement.
+             When temperature exceeds the needed threshold, the fan is 
+             activated hence good air circulation within the brooder; similarly,
+             when the temperature decreases below the optimum level, the brooder
+             bulb is activated and the brooder is warmed to the desired or 
+             required temperature. The feeding and drinking is automated to 
+             ensure that the chicks are fed at different needed times.
           </p>
         </div>
       </div>
