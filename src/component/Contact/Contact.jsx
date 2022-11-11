@@ -37,7 +37,7 @@ function Contact() {
             <a href="Team-stawi">Our Team</a>
           </li>
           <li>
-            <a className="active" href="contact">
+            <a className="active" href="Contact">
               Contact Us
             </a>
           </li>
