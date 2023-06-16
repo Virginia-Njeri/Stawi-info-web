@@ -8,11 +8,11 @@ In an effort to reduce chick mortality by providing small-scale poultry farmers 
 
 Conslate Koyo, Virginia Njeri, Mitchelle Waithera, and Nancy Awuor
 Project Requirements:
-Arduino, 12DC Gear Motor, Selanoid valve, Flow meter, Jumper wires, Breadboard, Temperature humidity sensor, Fan, 100 WATTS bulbs, Resistors, XY JO2 Timer module, Relay Switch, Power supply
+Arduino, 12DC Gear Motor, Solenoid valve, Flow meter, Jumper wires, Breadboard, Temperature humidity sensor, Fan, 100 WATTS bulbs, Resistors, XY JO2 Timer module, Relay Switch, Power supply
 
 **Technologies Used:**
 
-C++, Python
+C++, Python, Javascript
 
 **Contact Deatails:**
 
